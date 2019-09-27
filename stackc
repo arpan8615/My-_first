@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int i,j;
+int stack[10]={1,2,3,4,-1};
+
+push(int x)
+{
+while(stack[i]!='-1')
+{
+i++;
+}
+a[i+1]=x;
+}
+
+disp()
+{
+while(stack[i]!='-1')
+{
+printf("%d",stack[i]);
+i++;
+}
+}
+
+void main()
+{
+push(5);
+disp();
+}

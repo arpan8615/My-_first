@@ -1,6 +1,8 @@
 #include<stdio.h>
+
 int main()
 {
-printf("Ranjith\n");
-return 0;
+while(1)
+{
+}
 }
